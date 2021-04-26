@@ -34,4 +34,4 @@ node index XXX.js
     }
 ]
 
-对于占用大量字节，并且确保无副作用的属性，可以通过[terser mangle prop](https://github.com/terser/terser#mangle-properties-options) 自定义策略，对属性名进行压缩混淆，进一步节省代码体积
+对于占用大量字节，并且确保无副作用的属性，可以通过 [terser mangle prop](https://github.com/terser/terser#mangle-properties-options) 自定义策略，对属性名进行压缩混淆，进一步节省代码体积
